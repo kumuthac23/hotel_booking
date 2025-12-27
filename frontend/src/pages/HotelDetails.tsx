@@ -248,7 +248,7 @@ const HotelDetails: React.FC = () => {
                     }
                     fullWidth
                     sx={{ mb: 1 }}
-                    onClick={() => setSelectedRoomType(room.type)}
+                    onClick={() => handleRoomSelect(room.type)}
                   >
                     {room.type} - ${room.price}/night
                   </Button>
